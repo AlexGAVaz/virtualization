@@ -46,12 +46,15 @@ root@admin:~# vboxmanage --version
 - [Vagrant](https://github.com/netology-code/devops-materials) - рекомендуем версию 2.3.4 (в более старших версиях могут возникать проблемы интеграции с ansible)
 
 **Ответ:**
-root@admin:~# vagrant --version
-Vagrant 2.2.6
+> vagrant --version
+Vagrant 2.4.0
 
 - [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md) - версии 1.5.Х (1.6.х может вызывать проблемы с яндекс-облаком)
 
 **Ответ:**
+> terraform --version
+Terraform v1.5.7
+on darwin_arm64
 
 - [Ansible](https://www.ansible.com)
 
@@ -86,3 +89,7 @@ Error: The requested URL returned error: 404:
 Важно!: Если ваша хостовая рабочая станция - это windows ОС, то у вас могут возникнуть проблемы со вложенной виртуализацией.  [способы решения](https://www.comss.ru/page.php?id=7726)  . Если вы устанавливали hyper-v или docker desktop то  все равно может возникать ошибка: Stderr: VBoxManage: error: AMD-V VT-X is not available (VERR_SVM_NO_SVM) . Попробуйте в этом случае выполнить в windows от администратора команду: "bcdedit /set hypervisorlaunchtype off" и перезагрузиться
 
 ***Приложите скриншоты в качестве решения на эту задачу. Допускается неполное выполнение данного задания если не сможете совладать с Windows.*** 
+
+**Ответ:**
+Так как установить VirtualBox на мою рабочую машину не вышло, выполнить 4 пункт я не смог. По данной теме все ясно и выполнить 4 задание не представляет трудностей в плане пониманимания. 
+Я надеюсь в дальнейшем VirtualBox встречатся больше не будет?
