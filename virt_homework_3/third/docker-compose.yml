@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  centos-container:
+    image: centos:latest
+    volumes:
+      - ./data:/data
+    command: tail -f /dev/null  # чтобы контейнер не завершался сразу
+
+  debian-container:
+    image: debian:latest
+    volumes:
+      - ./data:/data
+    command: tail -f /dev/null  # чтобы контейнер не завершался сразу
